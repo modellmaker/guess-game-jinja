@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Guess Game</title>
+</head>
+<body>
+    <h1>This is the infamous 'Guess The Number' game.</h1>
+    <p>Enter a number between 1 and {{interval}}.</p>
+    {% include "guess.html" %}
+    <br>
+    {{winner}}
+    <p style="font-size: small">Powered by Jinja</p>
+</body>
+</html>
